@@ -1,0 +1,379 @@
+/*Theme Name: Mi English World
+	Author: MD Monju
+	Author Uri: https://www.facebook.com/md.monju.92123
+	Version: 1.0.0
+	Description:The name of this theme is MI English World. It is very beautiful theme*/
+
+
+
+
+/*###############
+
+index
+
+#################*/
+
+#header{
+    background: #c1291c;
+    padding: 15px 0;
+}
+/* #content-body{
+	background-image:url('images/bg3-6.jpg');
+	background-position:top;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+  */
+.header_content{
+   
+}
+#header .logo{
+	display:inline;
+}
+#header .logo img{
+	display:inline;
+	width:100px;
+	height:100px;
+    margin-right: 15px;
+}
+#header .header_text{
+	display:inline;
+}
+#header .header_text h1{
+    display: inline;	
+}
+#header .header_text h1 a{
+    color: white;
+    font-style: italic;
+}
+#header .header_text h1 a:hover{
+	text-decoration:none;
+}
+#heading h1{
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 50px;
+    font-weight: bold;
+    padding-right: 5px;
+	color: #C1291C;
+	padding-top:50px;
+}
+#heading h1 sub{
+	font-size:15px;
+	color: #777777;
+}
+#heading h1 span{
+    color: #EF7627;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.title{
+	display:inline;
+	margin-left: 3%;
+}
+.title h1{
+	display:inline
+}
+.title h1 a:hover{
+	text-decoration:none;
+}
+.subtitle{
+	display:inline;
+}
+.subtitle p{
+		font-size: 15px;
+    color: #777777;
+		font-weight:bold;
+	  display:inline;
+}
+.bg-light {
+    background-color: transparent!important;
+}
+.navbar-light .navbar-nav .nav-link {
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #EF7627;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: arial;
+    font-size: 15px;
+	padding: 15px 15px;
+    border-right: 1px dashed none;
+}
+.navbar-light .navbar-nav a.nav-link:last-child {
+    border-right: 1px dashed #F51515;;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #C1291C;
+    text-decoration: underline;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #c1291c;
+}
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #EF7627;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: arial;
+    font-size: 15px;
+}
+.menu-responsive{
+	display:none;
+}
+#responsive-menu-button{
+	    margin-top: -15px;
+}
+/* content part */
+
+#content{
+	margin-top:50px;
+}
+.profile_common{
+	
+}
+.common_profile_image img{
+   width: 100%;
+    height: 350px;
+	margin-bottom:20px;
+}
+.common_profile_text{
+	
+}
+.cpt_heading h1{
+	color: #EF7627;
+	text-transform:uppercase;
+	font-size:30px;
+    margin-bottom: 30px
+}
+.cpt_content {
+	margin-bottom:35px;
+}
+.cpt_content p{
+    color: #666;
+}
+.cpt_content p span{
+    font-weight:bold;
+}
+
+.our_mission{
+	width: 90%;
+    margin-left: 5%;
+    text-align: justify;
+}
+h1.our_mission_heading{
+    font-size: 30px;
+    background: linear-gradient(#CE3A2E 50%,#CF281C 50%);
+    padding: 5px 5px;
+    width: 300px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+h1.our_mission_heading span{
+    background: url(images/h4-arrow.png) no-repeat;
+    padding-left: 30px;
+    background-position: 5px 10px;
+    font-size: 30px;
+    background-size: 10px;
+}
+.our_mission_content p{
+    color: #666;
+    text-align: justify;
+}
+.textwidget p{
+	color: #666;
+}
+/* searchform */
+.searchform input[type="text"]{
+	width:220px;
+	padding-left:10px;
+}
+.searchform input[type="submit"]{
+	border:none;
+	background:#EF7627;
+	color:white;
+	padding:3px 12.6px;
+	letter-spacing:0.5px;
+}
+
+/* footer */
+footer{
+	margin-top:160px;
+}
+#footer{
+	background: silver;
+    padding: 25px 0;
+    padding-top: 40px;
+}
+#footer p{
+	color:white;
+}
+
+/*###############
+
+academic grammer
+
+#################*/
+
+/* .agc_heading h1{
+	margin-bottom:60px;
+	margin-top:30px;
+	color: #EF7627;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.collapse{
+	margin-bottom:30px;
+}
+.card {
+	border:none;
+	display:inline;
+	float:left;
+}
+.card-body {
+    padding:0;
+}
+.agc_list{
+	overflow:hidden;
+}
+.agc_list p{
+	display:inline;
+	float: right;
+	width:40%
+}
+.btn-primary span{
+	float:left;
+}
+.contact_us_heading h3{
+	margin-bottom:30px;
+	margin-top:30px;
+	color: #EF7627;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.contact_us_content{
+	
+}
+.contact_us_content ul{
+	
+}
+.contact_us_content ul li{
+    margin-bottom: 20px;
+    list-style-type: none;
+    background: aliceblue;
+    padding: 15px;
+}
+.contact_us_content ul li a{
+	text-decoration:none;
+}
+.btn-primary {
+    color: #fff;
+    border-color: #C1291C;
+    background: #C1291C;
+	width:100%;
+	font-size:100%;
+	margin-bottom:20px;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #ef7627;
+    border-color: #ef7627;
+}
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow:none;
+}
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow:none;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #ef7627;
+    border-color: #ef7627;
+}
+
+.position-right{
+	text-align:right;
+}
+iframe{
+	width:200%;
+}
+ */
+ 
+
+/* tab */
+#tab_container_918 .wpsm_nav-tabs > li > a {
+    margin-right: 0px !important;
+    line-height: 1.42857143 !important;
+    background-color: #C1291C;
+    border-radius: 0px 0px 0 0 !important;
+    color: white;
+    text-decoration: none !important;
+    font-size: 14px !important;
+    text-align: center !important;
+    font-family: Open Sans !important;
+}
+.page_content_wrap h3{
+	text-align:center;
+	color:#ef7627;
+	text-decoration:underline;
+	margin-bottom:80px;
+}
+ 
+ 
+ 
+/*
+ responsive
+*/
+
+
+
+@media only screen and (max-width: 992px) {
+    .navbar-light .navbar-nav a.nav-link:last-child {
+    border-right: none;
+}
+	iframe{
+	width:100%;
+}
+	.menu-responsive{
+	display:block;
+}
+	
+}
+@media only screen and (max-width: 767px) {
+	.our_mission {
+		width: 90%;
+		margin-left: 0%;
+}
+}
+
+@media only screen and (max-width: 600px) {
+	.agc_list p{
+	float: none;
+	width:100%
+}
+	.card {
+	float:none;
+}
+}
+@media only screen and (max-width: 320px) {
+	#heading h1 {
+		font-size: 25px;
+}
+	#heading h1 sub {
+		font-size: 10px;
+		color: #777777;
+}
+}
+
+

@@ -1,0 +1,258 @@
+/*Theme Name: consult
+Theme URI: http://wordpress.org/themes/
+Author: MD MONJU ;
+Author URI: http://FACEBOOK.COM/
+Description: The consult theme is very beautiful theme.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: consult
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.*/
+
+
+wp-caption{}
+.page_content_wrap{
+	margin:20px 30px;
+	text-align:justify;
+}
+.page_content_wrap h1{
+	margin-bottom:20px;
+}
+.blog_pic img{
+	width:100%;
+	height:254.48px;
+}
+.looking_for_right img{
+	width:100%;
+	height:auto;
+}
+.choose_us_single img{
+	max-width:100%;
+	height:250px;
+}
+ul#menu-primary-menu-1{
+	float:right;
+}
+/* article */
+.page_content_wrap{
+	overflow:hidden;
+}
+
+/* contact form */
+
+.form-control{
+	border: 1px solid #e3e2e2;
+	border-radius: 0;
+	box-shadow: none;
+	height: 47px;
+	font-size: 13px;
+	color: #000;
+	margin-bottom: 18px;
+	background-color: transparent;
+}
+
+/* pagination */
+
+span.page-numbers.current{
+	background-color: #008cb5;
+    border: none;
+    color: #fff;
+    border-radius: 15px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+}
+h2.screen-reader-text{
+	display:none;
+}
+a.page-numbers{
+    border-radius: 15px;
+    background-color: #f9f9f9;
+    border: none;
+    color: #4d4d4d;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    margin-left: 10px;
+}
+
+/* sidebar */
+
+#s{
+	  width: 100%;
+    padding: 12px 13px;
+    outline: 0;
+    color: #575757;
+    border: 0px solid #ebebeb;
+    position: relative;
+    background: transparent;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 13px;
+    background-color: #f9f9f9;
+    border: none;
+}
+#searchsubmit{
+	width:44px;
+	height:48px;
+	border:none;
+	background:#008cb5;
+	color:white;
+	font-size:19px;
+	position:absolute;
+	top:47px;
+	right:0;
+}
+.cat-item{
+	    background-color: #f9f9f9;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+}
+.cat-item a{
+	font-size: 14px;
+  color:#999999;
+  font-weight: 600;
+}
+.screen-reader-text{
+	display:none;
+}
+#archives-dropdown-2{
+	  width: 100%;
+    border-radius: 0;
+    box-shadow: none;
+    text-transform: capitalize;
+    outline: 0;
+    height: 45px;
+    font-size: 14px;
+    color: #999999;
+    margin-bottom: 18px;
+    background-color: #f9f9f9;
+    padding: 0 10px;
+    border: none;
+}
+h3.blog_widget_title{
+    margin: 0;
+    color: #4d4d4d;
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+.ul.wGallery{
+	width:100%;
+}
+ul.wGallery li a img{
+    max-width: 100px;
+    height: 100px;
+}
+ul.wGallery li{
+	float:left;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+#gallery-1 a img{
+	max-width:100px;
+	height:100px;
+	border:none;
+}
+#gallery-1 dl.gallery-item dt.gallery-icon{
+	margin-top:-10px;
+}
+p.attachment img{
+	max-width:100%;
+	height:auto;
+}
+
+/* comment */
+
+#comment{
+	width:100%;
+	height: 200px;
+	margin-top:20px;
+	padding:6px 12px;
+	box-sizing:border-box;
+}
+#author{
+	width:362px;
+	height:50px;
+	padding:6px 12px;
+  border: 1px solid #ebebeb;
+	float:left;
+	box-sizing:border-box;
+}
+#email{
+	box-sizing:border-box;
+	width:362px;
+	height:50px;
+	padding:6px 12px;
+	border: 1px solid #ebebeb;
+	float:right;
+}
+#url{
+	box-sizing:border-box;
+	width:362px;
+	height:50px;
+	padding:6px 12px;
+	border: 1px solid #ebebeb;
+	display:none;
+}
+#commentform label{
+	display:none;
+}
+
+#wp-comment-cookies-consent{
+	display:none;
+}
+.sec-three-img img{
+	width:50px;
+	height:50px;
+}
+.about_Single_item img{
+	width:370px;
+	height:250px;
+}
+
+.wp-caption,
+.gallery-caption {
+	color: #666;
+	font-size: 13px;
+	font-size: 0.8125rem;
+	font-style: italic;
+	margin-bottom: 1.5em;
+	max-width: 100%;
+}
+
+.wp-caption img[class*="wp-image-"] {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wp-caption .wp-caption-text {
+	margin: 0.8075em 0;
+}
+.sticky-post {
+	font-family: Montserrat, "Helvetica Neue", sans-serif;
+}
+.sticky .posted-on,
+.byline {
+	display: none;
+}
+.bypostauthor > article .fn:after {
+	content: "\f304";
+	left: 3px;
+	position: relative;
+	top: 5px;
+}
+.alignright {
+		
+	}
+	.alignleft {
+		
+	}
+	.aligncenter {
+		
+	}
+	
