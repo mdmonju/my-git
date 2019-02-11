@@ -1,0 +1,69 @@
+1. Theme
+2. Plugins
+	Ocean Product Sharing
+	Ocean Custom Sidebar
+	Ocean Social Sharing
+	Ocean Stick Anything
+	Contact Form 7
+	WooCommerce
+	WooCommerce Variation Swatches
+	WooCommerce Wishlist
+	Custom Sidebars
+	Elementor Addons & Templates – Sizzify Lite
+	Essential Addons for Elementor
+	Premium Addons for Elementor
+3. Wishlist Setup Wizard
+4. WooCommerce Pages
+5. WooCommerce Setup
+6. Home
+
+***Slider Height 600***
+	GIANT = Roboto Condensled 100px - Weight100
+	SALE = Roboto Condensled 100px - Weight700
+	Text - Roboto 300
+	70% = Roboto Condensled 100px - Weight700
+	Btn = Border1px --> No Radius --> Padding 10 20 10 20 --> Text Roboto 15-300
+
+***Title SubTitle***
+	Raleway 40*900 --> Padd Top 100
+	Roboto 20*300 --> Padd BTM 50
+
+***Categories***
+	Premium Banners - Effect2 ZoomIn --> Title50px && Line 0.7
+
+***Three Columns***
+	Column Padd 100 75 100 75
+	Icon Box --> Title Montserrat*35px --> Content Roboto20*300 && Space-0.4
+
+***Woo Recent Products***
+	img.woo-entry-image-main {
+    height: 280px;
+}
+***Brannds***
+	Image Carousel --> Row Padd Top50 Btm30
+	Title Montserrat 30*700
+
+***Posts***
+	EA Post Grid
+	
+
+7. Shop Page Sidebar 
+
+	Filter Products by Price
+	>Social Icons
+	Product Cats
+	Products by Rating
+8. Menu
+	hide-heading
+	btn
+9. Logo
+10. Main Menu Typo
+	Customize->Typo->Main Menu
+	Montserrat->600->UC->13px*0.6
+11. Breadcrumbs - General Options - Page Title
+12. Footer 
+	>Contact Info
+	>Recent Posts
+	>Custom Links
+	>Social Icons
+Bottom Footer -> Customize-Footer Bottom 
